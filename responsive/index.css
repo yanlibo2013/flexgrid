@@ -1,0 +1,61 @@
+@media (min-width: 100px) {
+    .sm,.md,.xl,.lg{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .sm{
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .md,.xl,.lg{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .md{
+        display: block;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .sm,.xl,.lg{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .lg{
+        display: block;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .md,.xl,.sm{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .xl{
+        display: block;
+        font-size: 64px;
+        font-weight: bold;
+    }
+    .sm,.md,.lg{
+        display: none;
+    }
+}
+
+/* //display: flex;
+//justify-content: center;//x轴对齐方式
+//align-items: center;//y轴对滴方式 */
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
