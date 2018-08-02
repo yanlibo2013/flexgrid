@@ -1,10 +1,14 @@
+body{
+    font-size: 16px;
+}
+
 @media (min-width: 100px) {
     .sm,.md,.xl,.lg{
         display: none;
     }
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .sm{
         display: block;
         font-size: 16px;
@@ -13,40 +17,56 @@
     .md,.xl,.lg{
         display: none;
     }
+
+    body{
+        font-size: 16px;
+    }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .md{
         display: block;
-        font-size: 32px;
+        font-size: 16px;
         font-weight: bold;
     }
     .sm,.xl,.lg{
         display: none;
     }
+
+    body{
+        font-size: 8px;
+    }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
     .lg{
         display: block;
-        font-size: 48px;
+        font-size: 16px;
         font-weight: bold;
     }
     .md,.xl,.sm{
         display: none;
     }
+
+    body{
+        font-size: 16px;
+    }
     
 }
 
-@media (min-width: 1200px) {
+@media only screen and  (min-width: 1200px) {
     .xl{
         display: block;
-        font-size: 64px;
+        font-size: 16px;
         font-weight: bold;
     }
     .sm,.md,.lg{
         display: none;
+    }
+
+    body{
+        font-size: 32px;
     }
 }
 
@@ -59,3 +79,14 @@
     justify-content: center;
     align-items: center;
 }
+
+div{
+    width: 20rem;
+    height: 5rem;
+    background: red
+
+}
+
+/* body{
+    font-size: 16px;
+} */

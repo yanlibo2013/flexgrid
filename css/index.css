@@ -241,7 +241,8 @@ code {
 .box-row {
     position: relative;
     box-sizing: border-box;
-    min-height: 1rem;
+    height: 1rem;
+    /* min-height: 1rem; */
     margin-bottom: 0;
     background: #007FFF;
     border: 1px solid #FFF;
@@ -299,10 +300,10 @@ code {
 }
 
 @media only screen and (min-width:48rem) {
-    body {
+    /* body {
         font-size: 16px;
         background: red
-    }
+    } */
     .slide-menu {
         width: 25%
     }
